@@ -60,8 +60,9 @@ public class DemoLogic {
 
 
     @Recover
-    public void recover(BusinessException e,String id){
+    public DemoResponseDTO recover(BusinessException e){
         log.info("---recover method-----");
-        log.info("id:{}",id);
+
+        return null;
     }
 }

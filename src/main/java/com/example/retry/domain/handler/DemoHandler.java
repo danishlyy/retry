@@ -19,6 +19,8 @@ public class DemoHandler {
     private DemoLogic demoLogic;
 
     public DemoResponseDTO demoRetry(String id) {
-        return demoLogic.retryDemo(id);
+        DemoResponseDTO responseDTO = demoLogic.retryDemo(id);
+        log.info("test case: execute recover method");
+        return responseDTO;
     }
 }

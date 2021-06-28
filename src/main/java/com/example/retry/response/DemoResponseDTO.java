@@ -19,6 +19,8 @@ public class DemoResponseDTO implements Serializable {
 
     private static final long serialVersionUID = 579477819023651766L;
 
+
+
     private String name;
 
     private String age;
