@@ -55,6 +55,7 @@ public class DemoLogic {
         if (StringUtils.isNotBlank(id)){
             throw new BusinessException(ResponseEnum.FAIL.getValue(), ResponseEnum.FAIL.getDesc());
         }
+
         return DemoResponseDTO.builder().name("zhangsan").age("20").build();
     }
 

@@ -1,5 +1,6 @@
 package com.example.retry.request;
 
+
 import java.io.Serializable;
 import lombok.Getter;
 import lombok.Setter;
@@ -16,4 +17,10 @@ import lombok.ToString;
 public class DemoRequestDTO implements Serializable {
 
     private static final long serialVersionUID = 2266358457853724466L;
+
+    private String name;
+
+    private Integer age;
+
+    private String address;
 }
