@@ -20,6 +20,7 @@ public class LogUtil {
     public static void main(String[] args) {
         String format = "\nURL:{},\nMETHOD:{},\nARGS:{}";
         log.info(format,"http://www.baidu.com","createPerson","aaaa");
+
     }
 
 
